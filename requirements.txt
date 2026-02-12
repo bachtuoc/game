@@ -1,11 +1,14 @@
 #pymongo
 streamlit
-google.generativeai
-sentence_transformers==3.0.1
-torch==2.3.1
+#google-genai
+#sentence_transformers==3.0.1
+#requests
+#torch
 #difflib
-pandas==2.2.2
-numpy==1.26.4
+#pandas==2.2.2
+#numpy==1.26.4
 #json
 python-dotenv==1.0.1
 openpyxl == 3.1.2
+xlsxwriter==3.2.9
+plotly==5.18.0
