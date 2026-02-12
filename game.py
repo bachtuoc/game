@@ -126,6 +126,7 @@ col1, col2 = st.columns(2)
 # =====================================================
 # PLAYER ACTION
 # =====================================================
+st.write('Người chơi bấm vào nút Buy, Sell để đặt lệnh')
 with col1:
 
     if st.button("🟢 Buy"):
@@ -202,6 +203,7 @@ df_equity = pd.DataFrame(st.session_state.equity_history)
 # =====================================================
 # DISPLAY STATS
 # =====================================================
+st.write('Người chơi xem kết quả realtime ở dashboard này:')
 colA, colB, colC, colD = st.columns(4)
 
 colA.metric("🔵 Player Equity", f"{player_equity:.2f}")
