@@ -1,0 +1,11 @@
+#pymongo
+streamlit
+google.generativeai
+sentence_transformers==3.0.1
+torch==2.3.1
+#difflib
+pandas==2.2.2
+numpy==1.26.4
+#json
+python-dotenv==1.0.1
+openpyxl == 3.1.2
