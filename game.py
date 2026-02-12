@@ -235,7 +235,7 @@ st.plotly_chart(fig, use_container_width=True)
 # =====================================================
 # ORDER HISTORY
 # =====================================================
-st.image("Capture.jpg", width=300)
+st.image("Capture.JPG", width=300)
 st.subheader("📜 Order History")
 
 if st.session_state.orders:
